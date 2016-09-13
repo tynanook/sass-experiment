@@ -1,0 +1,29 @@
+
+
+body {
+  color: green;
+  font-family: $font-primary;
+}
+
+.marketing {
+  h4 a {
+    color: $brand-warning;
+  }
+  p {
+    color: $brand-primary;
+  }
+}
+
+
+/* the following uses bootstraps mixin 'border-top-radius' and 'border-bottom-radius' */
+.container .jumbotron {
+  @include border-top-radius(0px);
+  @include border-bottom-radius(50px);
+}
+
+
+
+/*
+@import url(https://fonts.googleapis.com/css?family=Lato);
+*/
+
